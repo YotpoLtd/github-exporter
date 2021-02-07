@@ -3,11 +3,12 @@ yotpo:
   namespace: default
   chartName: yotpo/microservice
   chartPath: http://chartmuseum.k8s.yotpodev.com/
-  chartVersion: 0.1.73
+  chartVersion: ~0.2.08
   slackChannel: "#dev-alerts"
-  projectName: kubernetes-demo
+  slackDeploymentNotificationChannel: "changlog"
+  repoName: kubernetes-demo
   productLine: infra
-  team: raccoons
+  team: your-team-name
 
 replicaCount: 1
 
