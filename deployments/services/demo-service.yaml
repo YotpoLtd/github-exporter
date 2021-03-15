@@ -31,3 +31,10 @@ configMaps: ["demo-config"]
 resources:
   cpu: 100m
   memory: 64Mi
+
+livenessProbe:
+  httpGet:
+    path: /actuator/health
+    port: 80
+  initialDelaySeconds: 120
+
