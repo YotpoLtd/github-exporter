@@ -17,8 +17,6 @@ image:
   repository: nginx
   tag: uat
 
-batch: false
-
 ports:
   - name: http
     containerPort: 80
