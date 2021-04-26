@@ -4,6 +4,7 @@ yotpo:
   chartName: yotpo/microservice-config
   chartPath: http://chartmuseum.k8s.yotpodev.com/
   chartVersion: 0.1.0
+  repoName: kubernetes-demo
 
 clusters:
   production:
