@@ -1,5 +1,5 @@
 yotpo:
-  deploymentName: demo-service
+  deploymentName: demo-consumer
   namespace: default
   chartName: yotpo/microservice
   chartPath: http://chartmuseum.k8s.yotpodev.com/
