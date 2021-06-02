@@ -10,7 +10,11 @@ yotpo:
   productLine: infra
   team: your-team-name
 
-workloadType: batch # either deployment, batch, cron
+workloadType: cron # either deployment, batch, cron
+cron:
+  schedule: "0 0 1 1 *"
+  concurrencyPolicy: Forbid # Allow, Forbid, Replace
+  startingDeadlineSeconds: 60
 
 image:
   registry: 402837048690.dkr.ecr.us-east-1.amazonaws.com
