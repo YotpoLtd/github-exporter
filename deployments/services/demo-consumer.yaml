@@ -18,7 +18,7 @@ service:
 image:
   registry: 402837048690.dkr.ecr.us-east-1.amazonaws.com
   repository: nginx
-  tag: uat
+  tag: master
 
 extraEnv: 
   EXPLICIT_KEY_1: value
